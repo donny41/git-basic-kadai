@@ -1,2 +1,10 @@
-85f3916 (HEAD -> main) hello_world.txtを編集
-b590705 hello_world.txtを追加
+mkdir git_challenge
+cd git_challenge
+git init
+vi hello_world.txt
+git add hello_world.txt
+git commit -m "hello_world.txtを追加"
+vi hello_world.txt
+git add hello_world.txt
+git commit -m "hello_world.txtを編集"
+git log --oneline -2
